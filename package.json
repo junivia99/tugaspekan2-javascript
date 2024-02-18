@@ -1,0 +1,14 @@
+{
+  "name": "tugaspekan2-javascript",
+  "version": "1.0.0",
+  "description": "tugas pekan 2 - javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "intro.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
