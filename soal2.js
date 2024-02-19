@@ -1,4 +1,4 @@
-const prompt = require('prompt-sync')({sigint: true});
+
 
 let productBin = [
       {
@@ -33,6 +33,7 @@ let productBin = [
       }
     ]
 let qty;
+let totalqty = 0;
 for(let i =0;i < productBin.length;i++ ){
 
     console.log('ID '+ i+': ');
@@ -45,5 +46,8 @@ for(let i =0;i < productBin.length;i++ ){
             console.log(qty);  
             
     }
+    totalqty = totalqty + qty; 
 }
+console.log('Jumlah qty total : ');
+console.log(totalqty); 
 
